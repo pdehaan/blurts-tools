@@ -62,3 +62,9 @@ const breaches = (await new HIBP().getBreaches())
   .breaches(10);
 console.log(breaches);
 ```
+
+## [pdehaan/firefox-monitor-link-check.js](https://gist.github.com/pdehaan/3fb8532ebf12c1389d0ecadae734f1b9)
+
+Link checker for external breach details links to `https://www.${breach.Domain}`. Enjoy!
+
+See Gist at https://gist.github.com/pdehaan/3fb8532ebf12c1389d0ecadae734f1b9 (until I convert it to an `npx`able script).
