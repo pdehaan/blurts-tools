@@ -68,3 +68,16 @@ console.log(breaches);
 Link checker for external breach details links to `https://www.${breach.Domain}`. Enjoy!
 
 See Gist at https://gist.github.com/pdehaan/3fb8532ebf12c1389d0ecadae734f1b9 (until I convert it to an `npx`able script).
+
+## [pontoonql.now.sh/firefox-monitor-website/80](https://pontoonql.now.sh/firefox-monitor-website/80)
+
+Displays which Firefox Monitor locales are over 80%?
+**NOTE:** The server might be slow to warm up on initial load, since it hibernates after a few hours of non-use.
+
+This is also available as an API and CLI, via https://github.com/pdehaan/pontoonql.
+
+```sh
+npx pdehaan/pontoonql firefox-monitor-website 80
+```
+
+For the adventurous, there is also https://github.com/pdehaan/pontoon-l10n-lint which will compare the current 80%+ locales vs a list of production locales. Although that requires you to know the list of currently enabled locales on production (which can be found via the private OPs repo, or asking your friendly, neighborhood OPs fellow &mdash; or anybody with access to the OPs secrets repo).
