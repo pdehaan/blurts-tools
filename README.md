@@ -61,6 +61,17 @@ node index
 # wait and wait and wait
 ```
 
+### 5b. [pdehaan/blurts-logo-scraper](https://github.com/pdehaan/blurts-logo-scraper)
+
+Scrape breach details logos using Puppeteer (but with fancy progress bar since it's a 9-10 minute script).
+
+```sh
+git clone https://github.com/pdehaan/blurts-logo-scraper.git
+cd blurts-logo-scraper
+npm install
+npm run scrape
+```
+
 ### 6. [pdehaan/hibp-chain-api](https://github.com/pdehaan/hibp-chain-api)
 
 Chainable API for Have I Been Pwned breaches.
